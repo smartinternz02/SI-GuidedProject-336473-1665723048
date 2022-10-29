@@ -26,7 +26,7 @@ app = Flask(__name__)
 #CORS(app)
 app=flask.Flask(__name__,template_folder='templates')
 
-with open(r'C:/Users/HLC/Downloads/FAKE NEWS ANALYSIS/Flask/Fake News.pkl', 'rb') as handle:
+with open(r'C:/Users/HLC/Downloads/FAKE NEWS ANALYSIS/Flask/fake_news (2).pkl', 'rb') as handle:
     model = pickle.load(handle)
 
 
